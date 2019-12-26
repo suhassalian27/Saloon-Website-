@@ -1,0 +1,241 @@
+body
+{
+	margin-top:0px;
+	font-family: comfortaa;
+	background-image: url("img/bg1.jpg");
+	background-color: #ffffff;
+}
+.logo{
+	width: 30px;
+	transition : transform .5s;
+}
+.logo:hover{
+	transform: scale(1.1)
+}
+.img{
+	margin-top:2px;
+	width:100%;
+	height:30%;
+}
+.brand{
+	font-family: 'Aguafina Script', cursive;
+	font-color:blue;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle2 {
+	border-radius: 50%;
+	width:80%;
+	margin: 10px;
+}
+.container h2{
+	text-align: center;
+	margin:20px;
+}
+.login{
+	margin:0 35%;
+	width:30%;
+	box-shadow: 5px 5px 20px black;
+	padding: 25px 40px;
+}
+.imgcenter{
+	margin:0 44%;
+	border: none;
+
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  .slidetext {
+	padding: 0;
+	color: rgb(255, 255, 255);
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 2px 2px 2px black;
+	transition: color 0.5s;
+	transition: opacity 0.5s;
+	text-align: center;
+	opacity: 0.5;
+}
+.slidetext:hover{
+	color:rgb(255, 255, 255);
+	text-shadow: 2px 2px 2px rgb(0, 0, 0);
+	opacity: 1;
+}
+label{
+	font-size: 8px;
+}
+
+.fimg{
+	color: white;
+	font-size:20px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+}
+.fimgstyle img{
+	transition: opacity .5s;
+	transition: transform .5s;
+	text-shadow: 12px 12px 10px black
+}
+.fimgstyle:hover img{
+ opacity: 0.4;
+ transform: scale(1.07);
+}
+.address {
+	border-right: 1px solid rgba(0, 0, 0, 0.382);
+}
+.table{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.copyright{
+	background: rgba(0, 0, 0, 0.836);
+	width:100%;
+	height :20%;
+	padding: 5px;	
+}
+
+
+
+*{
+	margin:0;
+	padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img_wrap {
+  position: relative;
+  
+}
+.img_wrap:hover .img_text {
+	visibility: visible;
+	opacity: 1;
+}
+.img_wrap:hover {
+	transform:scale(1.05);
+}
+
+.img_text {
+  font-size:60px;
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  background: rgba(29, 106, 154, 1);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.text{
+	font-size: 50px;
+	color:white;
+	text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+.gallery {
+	width:500px;
+	height:300px;
+	position: relative;
+	   padding: 0;
+	   margin: 0;
+	   text-align: center;
+   }
+
+   .gallery-image{
+	   cursor:pointer;
+	   position: relative;
+	   display: block;	
+	   transition: transform 0.6s;
+	   box-shadow: 3px 3px 10px black;   
+   }
+   .gallery-image:hover{
+		box-shadow: 6px 6px 10px black;	
+	   transform: scale(1.1);
+}
+
+   .gallery-text{
+	   position: absolute;
+	   top: 0; right: 0;
+	   bottom: 0; left: 0;
+	   width:500px;
+		height:300px;
+	   text-align: center;
+	   background-color: rgba(0,0,0,0.8);
+	   opacity: 0;
+	   transition: opacity 0.6s;
+	   transition: transform 0.6s;
+	  vertical-align:middle;
+	  line-height:300px;
+   }
+
+   .gallery-text:hover{
+	width:500px;
+	height:300px;
+	opacity: 1;  
+	transform: scale(1.009);    
+   }
+
+   .gallery-text h3{
+	   color: white;
+	   display: inline-table;
+	  vertical-align:middle;
+	  line-height:100%;            
+   }
+
+   p{
+	   text-align: center;
+	   padding: 5px 20px 0px 20px;
+		margin: 0%;
+   }
+
+   .abtimg{
+	   height:515px;
+	   padding: 5px 0px 0px 80px;
+		transition:transform .5s;
+   }
+   .abtimg:hover{
+	   transform: scale(1.05);
+   }
+   hr.style18 { 
+	height: 30px; 
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 1px 0 0 0; 
+	border-radius: 20px; 
+  } 
+
+.brand {
+	width:90%;
+ }
+
+ .col-md-6 h3{
+	padding: 0 0 10px 0;
+	 font-weight: bold;
+ }
+ .thumbnail{
+	transition: transform .5s;
+ }
+ .thumbnail:hover{
+	 transform: scale(1.03);
+ }
+
+ 
