@@ -107,6 +107,12 @@ label{
 	padding: 5px;	
 }
 
+a{
+	color: #383333;
+  text-decoration: none;
+	background-color: transparent;
+	margin-right: 5px;
+}
 
 
 *{
